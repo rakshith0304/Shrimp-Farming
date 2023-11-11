@@ -202,3 +202,7 @@ h2 {
 .carouselslide2 h2{
   color: black;
 }
+.links {
+  display: flex;
+  justify-content: space-around;
+}
