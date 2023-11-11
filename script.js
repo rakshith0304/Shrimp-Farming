@@ -32,3 +32,13 @@ const filer = document.querySelectorAll(".fileopener");
 filer.forEach((f) => {
   f.onclick = () => { goto(f.dataset.file, f.dataset.line); };
 });
+
+function handleFormSubmit(event) {
+        event.preventDefault(); // Prevent the form from submitting in the traditional way
+
+        // Get the value of the search input
+        var searchQuery = document.getElementById('searchQuery').value;
+
+        // You can now use the searchQuery value for further processing or send it to the server using AJAX
+        console.log("Search query:", searchQuery);
+    };
