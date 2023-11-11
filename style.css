@@ -193,6 +193,7 @@ h2 {
 .fileopener:hover {
   border-bottom:3px solid var(--color-secondary);
 }
+
 .carouselslide2{
   position: relative;
   left: 15%;
@@ -205,4 +206,19 @@ h2 {
 .links {
   display: flex;
   justify-content: space-around;
+
+}
+.links a{
+  text-decoration: underline;
+  color: black;
+}
+.links a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+.links a:active {
+  background-color: white;
+  text-decoration: underline;
+  color: lightgrey;
 }
