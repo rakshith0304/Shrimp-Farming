@@ -232,7 +232,6 @@ h2 {
   font-size: 20px;
 }
 
-
 .collapse.navbar-collapse {
   list-style: none;
   display: flex;
@@ -240,17 +239,20 @@ h2 {
   gap: 50px;
   font-size: 20px;
 }
+
 .collapse.navbar-collapse form {
   margin-left: auto;
 }
+
 .collapse.navbar-collapse a:hover {
   background-color: lightblue;
   text-decoration: underline;
 }
+
 .container-fluid {
   display: flex;
-  
 }
+
 .custom-logo {
   width: 100px; 
   height: auto; 
