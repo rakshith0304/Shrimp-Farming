@@ -193,3 +193,12 @@ h2 {
 .fileopener:hover {
   border-bottom:3px solid var(--color-secondary);
 }
+.carouselslide2{
+  position: absolute;
+  left: 15%;
+  text-align: center;
+}
+
+.carouselslide2 h2{
+  color: black;
+}
