@@ -194,7 +194,7 @@ h2 {
   border-bottom:3px solid var(--color-secondary);
 }
 .carouselslide2{
-  position: absolute;
+  position: relative;
   left: 15%;
   text-align: center;
 }
