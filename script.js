@@ -42,3 +42,20 @@ function handleFormSubmit(event) {
         // You can now use the searchQuery value for further processing or send it to the server using AJAX
         console.log("Search query:", searchQuery);
     };
+
+document.querySelector('.nav-link[href="#AwardsPage"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of the anchor link
+    scrollToSection('AwardsPage');
+});
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        if (sectionId === 'AwardsPage') {
+            // Adjust the scroll position for the AwardsPage section
+            window.scrollTo({ top: section.offsetTop +580, behavior: 'smooth' });
+        } else {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+}
