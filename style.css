@@ -223,14 +223,12 @@ h2 {
 }
 
 .navbar-brand {
-    font-family: 'Your Preferred Font', sans-serif; /* Set your preferred font family */
-    font-size: 1.5rem; /* Adjust the font size as needed */
-    font-weight: bold; /* Set the font weight to bold or as desired */
-    color: #333; /* Set the text color to your preferred color */
-    text-decoration: none; /* Remove the default underline for links */
+  font-size: 20px; /* Adjust the font size as needed */
+  color: black; /* Set the text color to your preferred color */
+  text-decoration: none; /* Remove the default underline for links */
   display: flex;
   justify-content: flex-end;
-  gap: 50px;
+  gap: 30px;
   font-size: 20px;
 }
 
@@ -240,7 +238,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .collapse.navbar-collapse form {
   margin-left: auto;
