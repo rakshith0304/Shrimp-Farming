@@ -228,7 +228,7 @@ h2 {
   text-decoration: none; /* Remove the default underline for links */
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
+  gap: 50px;
   font-size: 20px;
 }
 
@@ -249,6 +249,7 @@ h2 {
 }
 .container-fluid {
   display: flex;
+  
 }
 .custom-logo {
   width: 100px; 
