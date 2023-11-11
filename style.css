@@ -208,7 +208,7 @@ h2 {
 
 }
 .links a{
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
 }
 .links a:hover {
@@ -220,4 +220,10 @@ h2 {
   background-color: white;
   text-decoration: underline;
   color: lightgrey;
+}
+
+
+.collapse.navbar-collapse {
+  display: flex;
+  justify-content: space-around;
 }
