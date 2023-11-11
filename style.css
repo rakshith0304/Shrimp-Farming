@@ -238,7 +238,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .collapse.navbar-collapse form {
   margin-left: auto;
@@ -249,4 +249,9 @@ h2 {
 }
 .container-fluid {
   display: flex;
+}
+.custom-logo {
+  width: 100px; 
+  height: auto; 
+  margin-right: 10px; 
 }
