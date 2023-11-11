@@ -213,7 +213,7 @@ h2 {
   color: black;
 }
 .links a:hover {
-  background-color: white;
+  background-color: lightblue;
   color: black;
   text-decoration: underline;
 }
