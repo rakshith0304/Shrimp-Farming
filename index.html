@@ -43,8 +43,8 @@
           <a class="nav-link" href="#headerr">Contact Us</a>
         </li>
       <li class="nav-item">
-          <a class="nav-link" href="#Login">Login</a>
-        </li>
+    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+</li>
 <!--       </ul> -->
 <!--       <form class="d-flex justify-content-end" role="search" onsubmit="handleFormSubmit(event)">
         <input class="form-control me-2" type="search" id="searchQuery" placeholder="Search" aria-label="Search">
@@ -334,10 +334,6 @@
     
     </div>
     
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -348,11 +344,18 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        Login
+        <form class="d-flex justify-content-end" role="search" onsubmit="handleFormSubmit(event)">
+        <input class="form-control me-2" type="search" id="username" placeholder="Username" aria-label="Search">
+       </form> 
+        
+        <form class="d-flex justify-content-end" role="search" onsubmit="handleFormSubmit(event)">
+        <input class="form-control me-2" type="search" id="password" placeholder="Password" aria-label="Search">
+       </form> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary">Login</button>
       </div>
     </div>
   </div>
