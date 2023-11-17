@@ -420,4 +420,15 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
+.data__container {
+    background-color: white;
+    max-height: 80%;
+    max-width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+
+#chart-container {
+    margin: 1rem;
+}
 
